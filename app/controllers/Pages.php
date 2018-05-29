@@ -7,6 +7,7 @@
     public function index(){
       $data = [
         'title' => 'NachalMVC',
+        'description' =>'This is the Nachal MVC POO customized framework for php.'
       ];
      
       $this->view('pages/index', $data);
